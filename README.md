@@ -1,13 +1,13 @@
 <p align="center">
     <a href="https://www.gitignore.io">
-        <img src="https://cdn.rawgit.com/vcsfund/design/master/github/gitignore.templates.svg" />
+        <img src="https://cdn.rawgit.com/dvcs/design/master/github/gitignore.templates.svg" />
     </a>
     <br>
     <small>A collection of useful <code>.gitignore</code> templates not found on <a href="https://github.com/github/gitignore">github/gitignore</a></small>
 </p>
 <br>
 <p align="center">
-    <a href="https://github.com/vcsfund/gitignore/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/vcsfund/gitignore.svg" alt="license"></a>
+    <a href="https://github.com/dvcs/gitignore/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/gitignore.svg" alt="license"></a>
 </p>
 
 ## About
