@@ -7,7 +7,7 @@
 </p>
 <br>
 <p align="center">
-    <a href="https://github.com/dvcs/gitignore/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/gitignore.svg" alt="license"></a>
+    <a href="https://github.com/dvcs/ignore-templates/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/ignore-templates.svg" alt="license"></a>
 </p>
 
 ## About
