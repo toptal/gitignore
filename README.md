@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.gitignore.io">
-        <img src="https://cdn.rawgit.com/dvcs/design/master/github/gitignore.templates.svg" />
+        <img src="https://cdn.rawgit.com/dvcs/design/master/github/ignore-templates.svg" />
     </a>
     <br>
     <small>A collection of useful <code>.gitignore</code> templates not found on <a href="https://github.com/github/gitignore">github/gitignore</a></small>
