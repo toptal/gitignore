@@ -1,13 +1,13 @@
 <p align="center">
     <a href="https://www.gitignore.io">
-        <img src="https://cdn.rawgit.com/dvcs/design/master/github/ignore-templates.svg" />
+        <img src="https://cdn.rawgit.com/dvcs/design/master/github/gitignore-templates.svg" />
     </a>
     <br>
     <small>A collection of useful <code>.gitignore</code> templates not found on <a href="https://github.com/github/gitignore">github/gitignore</a></small>
 </p>
 <br>
 <p align="center">
-    <a href="https://github.com/dvcs/ignore-templates/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/ignore-templates.svg" alt="license"></a>
+    <a href="https://github.com/dvcs/gitignore-templates/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/gitignore-templates.svg" alt="license"></a>
 </p>
 
 ## About
@@ -23,6 +23,7 @@ This repository contains 3 directories and 1 order file
 - `classes` — Ignore templates for entire classes of files.  For example if you want to ignore all images, or all videos, those template definitions go here
 - `custom` — Ignore templates which haven't been accepted by [github/gitignore](https://github.com/github/gitignore) for one reason or another.  In some cases, GitHub eventually merges suggestions, but in other cases GitHub does not.  We accept all reasonable gitignore templates without.
 - `patch` — Patches for ignore templates. Sometimes, an existing template has everything you need, but needs to be extended for a particular reason.
+- `gitignore` — A submodule pointing to [github/gitignore](https://github.com/github/gitignore)
 
 ### Files
 
