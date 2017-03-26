@@ -1,5 +1,3 @@
-git:
-  depth: 1
 script:
   - eval "$(curl -sL https://raw.githubusercontent.com/dvcs/scripts/master/gitignore-templates/synchronize.sh)"
 env:

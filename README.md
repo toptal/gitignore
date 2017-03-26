@@ -3,10 +3,11 @@
         <img src="https://cdn.rawgit.com/dvcs/design/master/github/gitignore-templates.svg" />
     </a>
     <br>
-    <small>The largest collection of useful <code>.gitignore</code> templates for your project</small>
+    <small>The largest collection of useful <code>.gitignore</code> templates</small>
 </p>
 <br>
 <p align="center">
+    <a href="https://github.com/dvcs/gitignore/tree/master/templates"><img src="https://img.shields.io/badge/Templates-350%2B-E15B39.svg" alt="template count"></a>
     <a href="https://github.com/dvcs/gitignore/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/gitignore.svg" alt="license"></a>
 </p>
 
