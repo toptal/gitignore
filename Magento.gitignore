@@ -1,0 +1,16 @@
+#--------------------------#
+# Magento Default Files    #
+#--------------------------#
+
+/app/etc/local.xml
+/media/*
+!/media/.htaccess
+!/media/customer/.htaccess
+!/media/dhl/logo.jpg
+!/media/downloadable/.htaccess
+!/media/xmlconnect/custom/ok.gif
+!/media/xmlconnect/original/ok.gif
+!/media/xmlconnect/system/ok.gif
+/var/*
+!/var/.htaccess
+!/var/package/*.xml
