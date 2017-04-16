@@ -1,4 +1,4 @@
-script:
+after_success:
   - eval "$(curl -sL https://raw.githubusercontent.com/dvcs/scripts/master/gitignore-templates/synchronize.sh)"
 env:
   global:
