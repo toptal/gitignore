@@ -1,6 +1,8 @@
 lang: ruby
+script:
+  - make
 after_success:
-  - eval "$(curl -sL https://raw.githubusercontent.com/dvcs/scripts/master/gitignore-templates/synchronize.sh)"
+  - .travis/synchronize.sh
 env:
   global:
     secure: jgrUuu0QA6Brwamvd+pORsfIjip4/UnWR+ZsTlateAi1c+AorJKbTUUlMGkuE871JbotqYQ7AXUXWGIslYxJNdcC+3CE1Gn9PDQ0Pv0thxmitnsgc32jMlkHFgS55XgGHI62i7b78f9s4aqJNHo42n3jBV1yL8WEq2CXNKANjfgBT9xhJy4lhvZkybdGReHNrv8KGaC5pA76WjxtzyotFuWCK+yV6kyuP5lT+/vFgm1WQk9jNyAGsy2yhXv71PN4KTWZqP/KTNt7QeimXcZUFN89TZ72Wyly1PEmJSz3HKOVwUNzbSi6thBwB49/8zjQ0jh1jOxnyYdKjWQRjFqPSD7NRg3rgHC5yQynmDsbKeb1BiqfS0TYjovZXbbrOh1Q4szATNQCAQOAhiL2hcE55w7wOn7vfgQAodnm3VF2kMjIUcn2HAqqOpVKJCGraR+ZU675sqGK5Qvh/WGr/BuEjEdv9wf34Z/l9MQ0We7aoOBAijgZh/C7OnYwNXF9vlVEmSxu/cUYI9ZJ0cVi5sO/BhoBUjwiKIsSva36Z5ERaO3JMRAi1O2tHhWhoCxq4upC4TA3rBZbD5ktiKlaHCJEGiQjJ1MLdiLLp8MT8qI32Nfd947SY1b3xGOJUrfPOWuJnaE1wx7MHddbzMDwUWENTWN0ZlfaUSNg/ccVmZ2VDaE=
