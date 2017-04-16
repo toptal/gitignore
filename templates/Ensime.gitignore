@@ -1,4 +1,2 @@
-# Ensime specific
 .ensime
 .ensime_cache/
-.ensime_lucene/
