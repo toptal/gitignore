@@ -1,3 +1,4 @@
+language: bash
 after_success:
   - .travis/synchronize.sh
 env:
