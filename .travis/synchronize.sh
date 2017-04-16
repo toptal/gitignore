@@ -6,20 +6,20 @@ setup_git() {
 }
 
 download_github_gitignore() {
-  pushd templates
+  cd templates
     wget -O master.zip https://github.com/github/gitignore/archive/master.zip
     unzip master.zip
-    pushd gitignore-master
+    cd gitignore-master
       cp *.gitignore ../
-      pushd Global
+      cd Global
         cp *.gitignore ../../
-      popd
-    popd
+      cd ..
+    cd ..
     rm -rf gitignore-master/
     rm master.zip
     chmod +x *.gitignore
     chmod +x *.patch
-  popd
+  cd ..
 }
 
 push_synchronized_submodules() {
