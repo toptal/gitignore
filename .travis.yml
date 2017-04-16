@@ -1,6 +1,3 @@
-lang: ruby
-script:
-  - make
 after_success:
   - .travis/synchronize.sh
 env:
