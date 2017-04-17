@@ -1,10 +1,17 @@
-# Ignore configuration files that may contain sensitive information.
+# Ignore configuration files that may contain sensitive information
 sites/*/*settings*.php
 
-# Ignore paths that contain generated content.
-files/
+# Ignore paths that may contain generated content
 sites/*/files
 sites/*/private
+sites/*/public
+sites/*/files-public
+sites/*/files-private
+
+# Ignore paths that may contain temporary files
+sites/*/translations
+sites/*/tmp
+sites/*/cache
 
 # Ignore default text files
 robots.txt
