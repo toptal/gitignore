@@ -13,31 +13,37 @@ sites/*/translations
 sites/*/tmp
 sites/*/cache
 
-# Ignore default text files
-robots.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-/README.txt
+# Ignore drupal core (if not versioning drupal sources)
+includes
+misc
+modules
+profiles
+scripts
+sites/example.sites.php
 sites/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
-
-# Ignore everything but the "sites" folder ( for non core developer )
+sites/sites.php
+sites/*/libraries/README.txt
+sites/*/modules/README.txt
+sites/*/themes/README.txt
+themes
+.editorconfig
+.gitignore
 .htaccess
-web.config
 authorize.php
+CHANGELOG.txt
+COPYRIGHT.txt
 cron.php
 index.php
+INSTALL.mysql.txt
+INSTALL.pgsql.txt
 install.php
+INSTALL.sqlite.txt
+INSTALL.txt
+LICENSE.txt
+MAINTAINERS.txt
+README.txt
+robots.txt
 update.php
+UPGRADE.txt
+web.config
 xmlrpc.php
-/includes
-/misc
-/modules
-/profiles
-/scripts
-/themes
