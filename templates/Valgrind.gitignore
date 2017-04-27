@@ -1,0 +1,17 @@
+# Callgrind output files
+callgrind.out
+callgrind.out.*
+
+# Cachegrind output files
+cachegrind.out
+cachegrind.out.*
+
+# Massif output files
+massif.out
+massif.out.*
+
+# BBV output files
+bb.out
+bb.out.*
+
+
