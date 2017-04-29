@@ -1,0 +1,7 @@
+.studio/
+flows/
+target/
+catalog/
+reports/
+.mule/
+**/*.mflow
