@@ -1,0 +1,13 @@
+# Ignore all minified files
+*.min.*
+
+# Ignore all minified files in assets folder
+assets/*.min.*
+
+# Ignore only JS/CSS minified files
+*.min.js
+*.min.css
+
+# Ignore only JS/CSS minified files in assets folder
+assets/*.min.js
+assets/*.min.css
