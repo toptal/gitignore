@@ -72,7 +72,7 @@
 # The format from the PIM - a freeware compression tool by Ilia Muraviev. It uses an LZP-based compression algorithm with set of filters for executable, image and audio files.
 *.pim 
 # PackIt 	Mac OS 			obsolete
-*.pit 		
+*.pit
 # Used for data in games written using the Quadruple D library for Delphi. Uses byte pair compression.
 *.qda 
 # A proprietary archive format, second in popularity to .zip files.
@@ -80,7 +80,7 @@
 # The format from a commercial archiving package. Odd among commercial packages in that they focus on incorporating experimental algorithms with the highest possible compression (at the expense of speed and memory), such as PAQ, PPMD and PPMZ (PPMD with unlimited-length strings), as well as a proprietary algorithms.
 *.rk 
 # Self Dissolving ARChive 	Commodore 64, Commodore 128 	Commodore 64, Commodore 128 	Yes 	SDAs refer to Self Dissolving ARC files, and are based on the Commodore 64 and Commodore 128 versions of ARC, originally written by Chris Smeets. While the files share the same extension, they are not compatible between platforms. That is, an SDA created on a Commodore 64 but run on a Commodore 128 in Commodore 128 mode will crash the machine, and vice versa. The intended successor to SDA is SFX.
-*.sda 		
+*.sda
 # A pre-Mac OS X Self-Extracting Archive format. StuffIt, Compact Pro, Disk Doubler and others could create .sea files, though the StuffIt versions were the most common.
 *.sea 
 # Scifer Archive with internal header
@@ -109,7 +109,7 @@
 *.uc2
 *.ucn
 *.ur2
-*.ue2 	
+*.ue2
 # Based on PAQ, RZM, CSC, CCM, and 7zip. The format consists of a PAQ, RZM, CSC, or CCM compressed file and a manifest with compression settings stored in a 7z archive.
 *.uca 
 # A high compression rate archive format originally for DOS.
@@ -119,7 +119,7 @@
 # File-based disk image format developed to deploy Microsoft Windows.
 *.wim 
 # XAR
-*.xar 		
+*.xar
 # Native format of the Open Source KiriKiri Visual Novel engine. Uses combination of block splitting and zlib compression. The filenames and pathes are stored in UTF-16 format. For integrity check, the Adler-32 hashsum is used. For many commercial games, the files are encrypted (and decoded on runtime) via so-called "cxdec" module, which implements xor-based encryption.
 *.xp3 
 # Yamazaki zipper archive. Compression format used in DeepFreezer archiver utility created by Yamazaki Satoshi. Read and write support exists in TUGZip, IZArc and ZipZag
