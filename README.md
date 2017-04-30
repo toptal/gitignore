@@ -23,32 +23,30 @@ This project is also the canonical repository where the [https://www.gitignore.i
 There are four file file types that gitignore.io recoginzes
 
 
-### 1 Templates
+1. Templates
 
-<p align="center">
-	<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/gitignore.svg" />
-</p>
+	A `.gitignore` file is the foundation of all templates.  Each `.gitignore` file contains gitignore information related to the title of the file.  For example, `Go.gitignore` contains a gitignore template that is used when creating a project using[the Go programming language](https://golang.org).
 
+	<p align="center">
+		<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/gitignore.svg" />
+	</p>
 
-A `.gitignore` file is the foundation of all templates.  Each `.gitignore` file contains gitignore information related to the title of the file.  For example, `Go.gitignore` contains a gitignore template that is used when creating a project using[the Go programming language](https://golang.org).
+2. Patch
 
-### 2 Patch
+	A `.patch` is a file to extend the functionality of a template.  The source for some of the template files on [dvcs/gitignore](https://github.com/dvcs/gitignore) come from [github/gitignore](https://github.com/github/gitignore).  GitHub maintains strict [contributing guidlines](https://github.com/github/gitignore#contributing-guidelines) and the `.patch` file allows anyone to extend any of the templates to add extra template rules
 
-<p align="center">
-	<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/patch.svg" />
-</p>
+	<p align="center">
+		<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/patch.svg" />
+	</p>
 
-A `.patch` is a file to extend the functionality of a template.  The source for some of the template files on [dvcs/gitignore](https://github.com/dvcs/gitignore) come from [github/gitignore](https://github.com/github/gitignore).  GitHub maintains strict [contributing guidlines](https://github.com/github/gitignore#contributing-guidelines) and the `.patch` file allows anyone to extend any of the templates to add extra template rules
+3. Stack
 
-### 3 Stack
+	A `.stack` is a file that allows for the creation of code stacks (LAMP, MEAN, React Native).  In todays development environment a `.gitignore` file is usually comprised of multiple technologes.  A stack creates an elegant way to keep the stack up to date with child dependencies.
 
-<p align="center">
-	<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/stack.svg" />
-</p>
+	<p align="center">
+		<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/stack.svg" />
+	</p>
 
-A `.stack` is a file that allows for the creation of code stacks (LAMP, MEAN, React Native).  In todays development environment a `.gitignore` file is usually comprised of multiple technologes.  A stack creates an elegant way to keep the stack up to date with child dependencies.
+4. Order
 
-
-### 4 Order
-
-The `order` file simply ensure that if certain templates are requested, the order in which the templates are loaded is maintinted.
+	The `order` file simply ensure that if certain templates are requested, the order in which the templates are loaded is maintinted.
