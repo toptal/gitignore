@@ -41,12 +41,7 @@ playground.xcworkspace
 
 # CocoaPods - Refactored to standalone file
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build
+# Carthage - Refactored to standalone file
 
 # fastlane
 #
