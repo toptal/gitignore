@@ -1,3 +1,1 @@
 *.xcscmblueprint
-#- CocoaPods include
-CocoaPods.gitignore
