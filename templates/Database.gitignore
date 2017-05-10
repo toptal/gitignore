@@ -4,3 +4,4 @@
 *.mdb
 *.pdb
 *.sql
+*.sqlite3
