@@ -37,6 +37,7 @@
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
+*Notes.bib
 
 ## Auxiliary and intermediate files from other packages:
 # algorithms
