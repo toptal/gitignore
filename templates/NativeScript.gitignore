@@ -1,0 +1,15 @@
+/platforms
+/hooks
+/node_modules
+/lib
+/debugger
+/dist
+
+/app/**/*.map
+/app/**/*.js
+
+.DS_Store
+**/*.log
+tags
+
+ers.txt
