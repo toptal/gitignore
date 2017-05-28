@@ -1,0 +1,3 @@
+# By default, sensitive information, such as encrypted password
+# should be stored in the .pubxml.user file.
+*.pubxml.user
