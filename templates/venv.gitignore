@@ -1,0 +1,13 @@
+# Linux
+bin/ 
+lib/
+include/
+
+# Window
+Include/
+Lib/
+Scripts/
+
+# Shared
+pyvenv.cfg
+
