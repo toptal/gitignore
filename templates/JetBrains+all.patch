@@ -2,3 +2,7 @@
 # See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
 .idea/
+
+# The out folder may also exist in sub directories
+# In GitHub's .gitignore, it is only excluded at the top level
+out/
