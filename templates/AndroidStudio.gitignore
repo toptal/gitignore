@@ -78,9 +78,6 @@ obj/
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 
-# Keystore files
-*.jks
-
 # OS-specific files
 .DS_Store
 .DS_Store?
@@ -98,7 +95,6 @@ Thumbs.db
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
