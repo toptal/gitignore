@@ -13,3 +13,4 @@ project.cfg
 # Binary executables
 *.exe
 *.app
+*.out
