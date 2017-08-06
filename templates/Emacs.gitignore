@@ -43,3 +43,21 @@ flycheck_*.el
 
 # directory configuration
 .dir-locals.el
+
+# saveplace
+places
+
+# url cache
+url/cache/
+
+# cedet
+ede-projects.el
+
+# smex
+smex-items
+
+# company-statistics
+smex-items
+
+# anaconda-mode
+anaconda-mode/
