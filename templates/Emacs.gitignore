@@ -40,6 +40,7 @@ flycheck_*.el
 
 # projectiles files
 .projectile
+projectile-bookmarks.eld
 
 # directory configuration
 .dir-locals.el
@@ -57,7 +58,7 @@ ede-projects.el
 smex-items
 
 # company-statistics
-smex-items
+company-statistics-cache.el
 
 # anaconda-mode
 anaconda-mode/
