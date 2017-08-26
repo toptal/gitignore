@@ -1,4 +1,5 @@
-# Files with personal details*.crt
+# Files with personal details
+*.crt
 *.csr
 *.key
 /icloud/*
