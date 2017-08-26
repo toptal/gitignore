@@ -2,8 +2,12 @@
 *.crt
 *.csr
 *.key
-/icloud/*
+.google.token
+.uuid
+icloud/
+google_calendars.yaml
 harmony_media_room.conf
+home-assistant.db
 home-assistant_v2.db
 home-assistant_v2.db-*
 html5_push_registrations.conf
@@ -28,3 +32,6 @@ www
 # Log files
 home-assistant.log
 ozw_log.txt
+
+# Development files
+custom_components/
