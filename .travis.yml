@@ -1,0 +1,3 @@
+language: bash
+after_success:
+  - .travis/build-parent.sh 
