@@ -38,3 +38,10 @@ constant/triSurface
 # function object and post-processing data
 forces
 postProcessing
+
+# Needed when C++ code is built using the OpenFOAM library, since it does not
+# use a "normal" build tool (make, cmake, ..).
+lnInclude
+*.dep
+linux*
+Darwin*
