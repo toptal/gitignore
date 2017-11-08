@@ -13,10 +13,7 @@
 
 ## About
 
-GitHub currently hosts the canonical repository of `.gitignore` templates at https://github.com/github/gitignore, but occasionally is hesitant to merge changes without proper documentation based on their contributing guidelines.  This repository serves as an alternate source for contributing `.gitignore` templates.
-
-This project is also the canonical repository where the [https://www.gitignore.io](https://www.gitignore.io) template list comes from.
-
+This project is also the canonical repository where the [https://www.gitignore.io](https://www.gitignore.io) template list comes from.  Here are the reasons behind the need for this repository: https://blog.joeblau.com/gitignore-io-template-fork
 
 ## Files
 
