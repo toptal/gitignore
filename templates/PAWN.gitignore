@@ -2,5 +2,11 @@
 *.amx
 *.exe
 
+# Vendor directory for dependencies
+dependencies/
+
+# Dependency versions lockfile
+pawn.lock
+
 # IDE setting files
 settings.ini
