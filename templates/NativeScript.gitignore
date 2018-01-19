@@ -6,7 +6,8 @@
 /dist
 
 /app/**/*.map
-/app/**/*.js
+# shouldn't ignore this for vanilla nativescript 
+# /app/**/*.js
 
 .DS_Store
 **/*.log
