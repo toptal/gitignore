@@ -1,6 +1,7 @@
-# Binary files
+# Compiled Bytecode, precompiled output and assembly
 *.amx
-*.exe
+*.lst
+*.asm
 
 # Vendor directory for dependencies
 dependencies/
