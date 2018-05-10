@@ -11,6 +11,9 @@
 # Ignore php dependecies resolved by composer 
 /vendor/
 
+# Ignore compiled assets by webpack
+/source/assets/
+
 # Optionally ignore lock files
 # composer.lock
 # yarn.lock
