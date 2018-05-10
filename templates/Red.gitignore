@@ -1,6 +1,7 @@
 # Libraries
 crush.dll
 crush.dylib
+crush.so
 
 # Files generated during test
 quick-test/quick-test.log
