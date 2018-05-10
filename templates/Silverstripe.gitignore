@@ -5,3 +5,5 @@ silverstripe-cache/
 .env
 vendor/
 resources/
+themes/simple/
+public/resources/
