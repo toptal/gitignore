@@ -8,6 +8,10 @@ Icon
 # Thumbnails
 ._*
 
+# Contents of directories not indexed by Spotlight
+# https://developer.apple.com/library/content/qa/qa1497/_index.html
+*.noindex/**
+
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
