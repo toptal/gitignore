@@ -1,0 +1,76 @@
+## Zuken Global
+
+# log files
+*.log
+
+
+## Schematic
+
+# Schematic lock / edit in progress files
+*.s_t
+
+# Schematic Sheet backups
+*.shtb
+*.shtq
+
+# Schematic Design backups
+*undo.dsgn_
+
+# Schematic ERC/DRC results
+**/*template.cir/drc*
+
+# Schematic Frame
+**/*template.cir/frame*
+
+# Schematic log
+**/*template.cir/log*
+
+# Schematic exported netlist readme
+**/*template.cir/ext/readme.txt
+
+
+## Schematic <-> Layout communication
+
+# forward annotation files:
+*.coh
+*.loh
+*.coe
+
+
+## Layout
+
+# Layout Backups
+*.dsgn.bk
+
+# Layout Lockfiles
+*.dsgn.lk
+
+# Layout .crdb folder
+**/.crdb/
+
+# Layout .df_cache folder
+**/.df_cache/
+
+# Layout Automatic backup folders
+**/*dsgn.autobk/
+
+# Layout DRC result folder
+**/*.chk/
+
+# Layout Parameter file folders
+**/*.dsgn.prm/
+
+# Layout Signal Integrity result folders
+**/*.si/
+
+# Layout Power Integrity / EMI result folders
+**/*.emc/
+
+
+## DFM
+
+# DFM backups
+*.mdgn.bk
+
+# DFM lockfiles
+*.mdgn.lk
