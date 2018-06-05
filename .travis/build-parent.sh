@@ -2,8 +2,8 @@
 
 body='{
  "request": {
- "message": "Upading templates from https://github.com/dvcs/gitignore",
- "branch":"master"
+ "message": "Updating templates from https://github.com/dvcs/gitignore",
+ "branch": "master"
 }}'
 
 curl -s -X POST \
