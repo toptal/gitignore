@@ -1,3 +1,5 @@
 language: bash
+script:
+  - .travis/check-eof-line.sh
 after_success:
   - .travis/build-parent.sh 
