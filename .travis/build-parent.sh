@@ -2,7 +2,7 @@
 
 body='{
  "request": {
- "message": "Upading templates from https://github.com/dvcs/gitignore",
+ "message": "Updating templates from https://github.com/dvcs/gitignore",
  "branch":"master"
 }}'
 
