@@ -1,5 +1,5 @@
 language: bash
 script:
-  - .travis/check-eof-line.sh
+  - .travis/check-whitespace.sh
 after_success:
   - .travis/build-parent.sh

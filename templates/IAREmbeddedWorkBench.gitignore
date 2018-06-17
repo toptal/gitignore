@@ -8,30 +8,30 @@
 # IAR Workspace files
 *.eww
 
-# IAR Settings  
-**/settings/*.crun  
-**/settings/*.dbgdt  
-**/settings/*.cspy  
-**/settings/*.cspy.*  
-**/settings/*.xcl  
-**/settings/*.dni  
-**/settings/*.wsdt  
-**/settings/*.wspos  
+# IAR Settings
+**/settings/*.crun
+**/settings/*.dbgdt
+**/settings/*.cspy
+**/settings/*.cspy.*
+**/settings/*.xcl
+**/settings/*.dni
+**/settings/*.wsdt
+**/settings/*.wspos
 
-# IAR Debug Exe  
+# IAR Debug Exe
 **/Debug/Exe/
 
 # IAR Debug List
 **/Debug/List
 
-# IAR Debug Obj  
-**/Obj/*.pbd  
-**/Obj/*.pbd.*  
-**/Obj/*.pbi  
+# IAR Debug Obj
+**/Obj/*.pbd
+**/Obj/*.pbd.*
+**/Obj/*.pbi
 **/Obj/*.pbi.*
 
 # Log files
-**.log 
+**.log
 
 # IAR backup files
 Backup*

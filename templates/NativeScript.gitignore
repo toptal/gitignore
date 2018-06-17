@@ -6,7 +6,7 @@
 /dist
 
 /app/**/*.map
-# shouldn't ignore this for vanilla nativescript 
+# shouldn't ignore this for vanilla nativescript
 # /app/**/*.js
 
 .DS_Store
