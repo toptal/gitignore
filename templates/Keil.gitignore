@@ -2,7 +2,7 @@
 # *.bat  # generate batch file
 # output/project_name # uv project generate without file ext
 # *.SRC # generate source file
-# *.src 
+# *.src
 
 # Prerequisites
 *.d

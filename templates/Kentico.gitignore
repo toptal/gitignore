@@ -25,7 +25,7 @@ CMS/App_Data/CMSModules/SmartSearch/**
 ## Kentico Starter Sites
 # Starter site resource Files
 CMS/App_Data/DancingGoat
- 
+
 # Starter site web templates
 CMS/App_Data/Templates/CommunitySite
 CMS/App_Data/Templates/CorporateSite
@@ -33,17 +33,17 @@ CMS/App_Data/Templates/DancingGoat
 CMS/App_Data/Templates/EcommerceSite
 CMS/App_Data/Templates/IntranetPortal
 CMS/App_Data/Templates/PersonalSite
- 
+
 # Starter site app themes
 CMS/App_Themes/CommunitySite
 CMS/App_Themes/CorporateSite
 CMS/App_Themes/EcommerceSite
 CMS/App_Themes/IntranetPortal*
 CMS/App_Themes/PersonalSite
- 
+
 # Starter site ASPX templates
 CMS/CMSTemplates/CorporateSite
- 
+
 # Starter site media libraries
 CMS/CommunitySite
 CMS/CorporateSite

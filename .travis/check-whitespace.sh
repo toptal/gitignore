@@ -8,4 +8,7 @@ for file in templates/*; do
     fi
 done
 
+sed -i 's/ *$//' templates/*
+git diff --exit-code
+
 exit 0

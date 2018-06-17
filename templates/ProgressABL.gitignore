@@ -7,7 +7,7 @@
 *.r
 *.pl
 
-# DataDigger 
+# DataDigger
 DataDigger/Cache
 DataDigger/backup
 DataDigger/DataDigger-*.ini
