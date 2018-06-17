@@ -1,9 +1,5 @@
 # Cache objects
 packer_cache/
-output-*/
 
 # For built boxes
 *.box
-
-# For build artifacts
-*.vdi
