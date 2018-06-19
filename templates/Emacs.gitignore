@@ -40,25 +40,6 @@ flycheck_*.el
 
 # projectiles files
 .projectile
-projectile-bookmarks.eld
 
 # directory configuration
 .dir-locals.el
-
-# saveplace
-places
-
-# url cache
-url/cache/
-
-# cedet
-ede-projects.el
-
-# smex
-smex-items
-
-# company-statistics
-company-statistics-cache.el
-
-# anaconda-mode
-anaconda-mode/

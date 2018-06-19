@@ -6,9 +6,3 @@
 *.rel
 *.rst
 *.sym
-*.hex
-*.ihx
-*.bin
-*.dep
-*.d
-*.lk

@@ -6,10 +6,9 @@ pom.xml.asc
 /classes/
 /target/
 /checkouts/
-/.shadow-cljs/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
 .lein-failures
 .nrepl-port
-.rebel_readline_history
+.cpcache/

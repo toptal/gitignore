@@ -1,9 +1,15 @@
-# Compiled files
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
 *.tfstate
 *.tfstate.*
 
-# Module directory
-.terraform/
+# Crash log files
+crash.log
 
-# .tfvars files
-*.tfvars
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars

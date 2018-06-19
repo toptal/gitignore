@@ -1,5 +1,16 @@
-language: bash
+language: python
+
+cache: pip
+
+before_script:
+  - git clone --depth 1 https://github.com/github/gitignore ../github
+  - find ../github -name '*.gitignore' | xargs sed -i 's/ *$//g;$a\'
+  - pip install moban
+
 script:
   - .travis/check-whitespace.sh
+  - moban
+  - git diff --exit-code
+
 after_success:
   - .travis/build-parent.sh
