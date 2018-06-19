@@ -8,6 +8,7 @@
 <br>
 <p align="center">
     <a href="https://github.com/dvcs/gitignore/tree/master/templates"><img src="https://img.shields.io/badge/Templates-400%2B-FF5722.svg?style=flat-square" alt="template count"></a>
+    <a href="https://travis-ci.org/dvcs/gitignore"><img src="https://img.shields.io/travis/dvcs/gitignore.svg?style=flat-square" alt="build status"></a>
     <a href="https://github.com/dvcs/gitignore/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/dvcs/gitignore.svg?style=flat-square" alt="license"></a>
 </p>
 
