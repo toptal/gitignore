@@ -13,7 +13,6 @@ copy:
   - templates/AppEngine.gitignore: AppEngine.gitignore
   - templates/Archives.gitignore: Archives.gitignore
   - templates/ArchLinuxPackages.gitignore: ArchLinuxPackages.gitignore
-  - templates/AutomationStudio.gitignore: AutomationStudio.gitignore
   - templates/Autotools.gitignore: Autotools.gitignore
   - templates/Bazaar.gitignore: Bazaar.gitignore
   - templates/BricxCC.gitignore: BricxCC.gitignore
@@ -72,7 +71,6 @@ copy:
   - templates/GWT.gitignore: GWT.gitignore
   - templates/Haskell.gitignore: Haskell.gitignore
   - templates/Idris.gitignore: Idris.gitignore
-  - templates/InforCRM.gitignore: InforCRM.gitignore
   - templates/IGORPro.gitignore: IGORPro.gitignore
   - templates/Java.gitignore: Java.gitignore
   - templates/Jboss.gitignore: Jboss.gitignore

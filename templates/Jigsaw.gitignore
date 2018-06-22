@@ -8,7 +8,7 @@
 # Ignore node dependencies resolved by npm/yarn
 /node_modules/
 
-# Ignore php dependecies resolved by composer 
+# Ignore php dependecies resolved by composer
 /vendor/
 
 # Optionally ignore lock files
