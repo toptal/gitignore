@@ -1,0 +1,4 @@
++# Rider IDE-specific stuff
++# Reference: https://rider-support.jetbrains.com/hc/en-us/articles/207097529
++.idea/**/modules.xml
++.idea/**/contentModel.xml
