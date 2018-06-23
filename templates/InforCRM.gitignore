@@ -1,11 +1,11 @@
 #########################################
 # .gitignore for Infor CRM (SalesLogix)
 #########################################
- 
+
 # Ignore model files that are auto-generated
 ModelIndex.xml
 ExportedFiles.xml
- 
+
 # Ignore deployment files
 [Mm]odel/[Dd]eployment
 
