@@ -1,0 +1,10 @@
+--- Python.gitignore	2018-06-27 23:20:56.134774465 +0900
++++ Python_new.gitignore	2018-06-27 23:22:04.761963956 +0900
+@@ -84,6 +84,7 @@
+ # Environments
+ .env
+ .venv
++.venv/
+ env/
+ venv/
+ ENV/
