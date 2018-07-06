@@ -1,3 +1,5 @@
 #!/bin/bash
 
-git pull ../../gitignore
+pushd ../../github &> /dev/null
+git pull
+popd &> /dev/null
