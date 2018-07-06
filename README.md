@@ -23,7 +23,7 @@ There are four file types that gitignore.io recognizes
 
 1. Templates
 
-	A `.gitignore` file is the foundation of all templates.  Each `.gitignore` file contains gitignore information related to the title of the file.  For example, `Go.gitignore` contains a gitignore template that is used when creating a project using[the Go programming language](https://golang.org).
+	A `.gitignore` file is the foundation of all templates.  Each `.gitignore` file contains gitignore information related to the title of the file.  For example, `Go.gitignore` contains a gitignore template that is used when creating a project using [the Go programming language](https://golang.org).
 
 	<p align="center">
 		<img src="https://cdn.rawgit.com/dvcs/gitignore/master/.github/gitignore.svg" />
