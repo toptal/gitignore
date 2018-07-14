@@ -1,0 +1,7 @@
+# Compiled class files
+*.balx
+*.class
+.classpath
+
+# Log files
+*.log
