@@ -98,6 +98,7 @@ copy:
   - templates/macOS.gitignore: macOS.gitignore
   - templates/Magento.gitignore: Magento.gitignore
   - templates/Matlab.gitignore: Matlab.gitignore
+  - templates/Maven.gitignore: Maven.gitignore
   - templates/Mercurial.gitignore: Mercurial.gitignore
   - templates/Mercury.gitignore: Mercury.gitignore
   - templates/MetaProgrammingSystem.gitignore: MetaProgrammingSystem.gitignore
