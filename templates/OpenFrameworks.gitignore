@@ -42,6 +42,17 @@ xcuserdata
 *.ilk
 *.aps
 ipch/
+.vs/
+*.aps
+*.ncb
+*.opendb
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.sap
 
 # Eclipse
 .metadata
