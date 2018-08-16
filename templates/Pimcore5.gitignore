@@ -1,0 +1,13 @@
+/var/*
+!/var/cache/.gitkeep
+!/var/logs/.gitkeep
+!/var/sessions/.gitkeep
+!/var/SymfonyRequirements.php
+!/var/classes
+!/var/config/
+/var/config/*
+!/var/config/image-thumbnails.php
+!/var/config/video-thumbnails.php
+!/var/config/staticroutes.php
+/web/bundles/
+/web/var/
