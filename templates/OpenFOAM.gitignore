@@ -25,6 +25,7 @@ constant/polyMesh/owner*
 constant/polyMesh/neighbour*
 constant/polyMesh/boundary*
 constant/polyMesh/sets
+constant/polyMesh/*
 
 # Zones and levels
 *Level*
@@ -45,3 +46,10 @@ lnInclude
 *.dep
 linux*
 Darwin*
+
+#exclude important folders and files:
+!0/
+!constant/thermophysicalProperties
+!constant/turbulenceProperties
+!system/
+!.gitignore
