@@ -1,0 +1,10 @@
+.vs/
+*.ncb
+*.opendb
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.sap
