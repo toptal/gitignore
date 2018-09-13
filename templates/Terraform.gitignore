@@ -14,7 +14,7 @@ crash.log
 #
 # example.tfvars
 
-# Ignore override files as they are usually used to override ressources locally
+# Ignore override files as they are usually used to override resources locally
 override.tf
 override.tf.json
 *_override.tf
