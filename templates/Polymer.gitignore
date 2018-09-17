@@ -1,2 +1,8 @@
 #Installed components via bower
 bower_components/
+
+#Installed modules via npm
+node_modules/
+
+#Polymer-cli builds
+build/
