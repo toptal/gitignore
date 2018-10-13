@@ -107,7 +107,6 @@ copy:
   - templates/Momentics.gitignore: Momentics.gitignore
   - templates/MonoDevelop.gitignore: MonoDevelop.gitignore
   - templates/Nanoc.gitignore: Nanoc.gitignore
-  - templates/NetBeans.gitignore: NetBeans.gitignore
   - templates/Nim.gitignore: Nim.gitignore
   - templates/Ninja.gitignore: Ninja.gitignore
   - templates/Node.gitignore: Node.gitignore
