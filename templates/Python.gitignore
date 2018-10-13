@@ -58,7 +58,8 @@ local_settings.py
 db.sqlite3
 
 # Flask stuff:
-instance/
+instance/*
+!instance/.gitignore
 .webassets-cache
 
 # Scrapy stuff:
