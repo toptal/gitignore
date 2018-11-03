@@ -3,3 +3,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+### VScode Addons ignore
+# Ignore the .history folder in case the addon is installed
+.history
