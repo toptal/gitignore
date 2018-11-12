@@ -1,9 +1,21 @@
-# Ignore Folders
-AS/
-Binaries/
-Diagnosis/
-Temp/
-
-# Ignore .set and .isopen files
-*.set
-*.isopen
+## Automation Studio : ignore temporary files and build results (.gitignore parallel to *.apj)
+# Ignore AR versions as those are not considered part of the project
+/AS/System/
+# Ignore build results
+/Binaries/
+# Ignore debugging configurations (Watch,...)
+/Diagnosis/
+# Ignore Temporary Safety files
+/Physical/*/*/*/DLFiles/
+# Ignore standard temp folder
+/Temp/
+# Ignore upgrades as those are not considered part of the project source code
+/Upgrades/
+# Ignore user settings file
+/*.set
+# Ignore is open indication
+/*.isopen
+# Ignore debug logs
+/debug.log
+# Ignore Conversion logs (AS2 to AS3)
+/ConvertLog.txt
