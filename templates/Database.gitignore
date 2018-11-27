@@ -3,5 +3,4 @@
 *.dbf
 *.mdb
 *.pdb
-*.sql
 *.sqlite3
