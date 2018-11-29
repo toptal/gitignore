@@ -1,9 +1,7 @@
-# NW.js (node-webkit) binary files to be excluded from git
-# https://nwjs.io/
-# https://github.com/nwjs/nw.js
+# gitignore template for NW.js projects
+# website: https://nwjs.io/
 
-
-## Seen in standard and sdk versions
+# Seen in standard and sdk versions
 credits.html
 locales/
 libEGL.dll
@@ -18,14 +16,12 @@ nw_elf.dll
 snapshot_blob.bin
 resources.pak
 
-
-## Seen only in standard
+# Seen only in standard
 d3dcompiler_47.dll
 ffmpeg.dll
 icudtl.dat
 
-
-## Seen only in sdk
+# Seen only in sdk
 pnacl/
 chromedriver.exe
 nacl_irt_x86_64.nexe

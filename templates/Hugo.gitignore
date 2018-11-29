@@ -1,6 +1,8 @@
-# Hugo binary
-hugo*
+# gitginore template for Hugo projects
+# website: https://gohugo.io
 
-# Generated files at default location
+# generated files by hugo
 /public/
-/resources/_gen
+
+# executable may be added to repository
+hugo.exe

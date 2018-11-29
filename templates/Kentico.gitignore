@@ -1,4 +1,7 @@
-# Recommend using the Visual Studio ignore rules as well
+# gitignore template for using Kentico CMS
+# website: http://www.kentico.com/
+#
+# Recommended template: VisualStudio.gitignore
 
 # Include some Kentico folders excluded by Visual Studio rules
 !CMS/CMSAdminControls/*/
