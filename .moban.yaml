@@ -1,7 +1,16 @@
 configuration:
   template_dir:
-    - ../github
-    - ../github/Global
+    - ../temp-github-gitignore
+    - ../temp-github-gitignore/Global
+    - ../temp-github-gitignore/community
+    - ../temp-github-gitignore/community/DotNet
+    - ../temp-github-gitignore/community/Elixir
+    - ../temp-github-gitignore/community/Golang
+    - ../temp-github-gitignore/community/Java
+    - ../temp-github-gitignore/community/JavaScript
+    - ../temp-github-gitignore/community/Linux
+    - ../temp-github-gitignore/community/PHP
+    - ../temp-github-gitignore/community/Python
 copy:
   - templates/Actionscript.gitignore: Actionscript.gitignore
   - templates/Ada.gitignore: Ada.gitignore
@@ -14,34 +23,41 @@ copy:
   - templates/Archives.gitignore: Archives.gitignore
   - templates/ArchLinuxPackages.gitignore: ArchLinuxPackages.gitignore
   - templates/Autotools.gitignore: Autotools.gitignore
+  - templates/Backup.gitignore: Backup.gitignore
   - templates/Bazaar.gitignore: Bazaar.gitignore
+  - templates/Bazel.gitignore: Bazel.gitignore
+  - templates/Bitrix.gitignore: Bitrix.gitignore
   - templates/BricxCC.gitignore: BricxCC.gitignore
+  - templates/C++.gitignore: C++.gitignore
+  - templates/C.gitignore: C.gitignore
   - templates/CakePHP.gitignore: CakePHP.gitignore
   - templates/Calabash.gitignore: Calabash.gitignore
   - templates/CFWheels.gitignore: CFWheels.gitignore
-  - templates/C++.gitignore: C++.gitignore
-  - templates/C.gitignore: C.gitignore
   - templates/ChefCookbook.gitignore: ChefCookbook.gitignore
   - templates/Clojure.gitignore: Clojure.gitignore
   - templates/Cloud9.gitignore: Cloud9.gitignore
   - templates/CMake.gitignore: CMake.gitignore
   - templates/CodeIgniter.gitignore: CodeIgniter.gitignore
   - templates/CodeKit.gitignore: CodeKit.gitignore
+  - templates/CodeSniffer.gitignore: CodeSniffer.gitignore
   - templates/CommonLisp.gitignore: CommonLisp.gitignore
   - templates/Composer.gitignore: Composer.gitignore
   - templates/Concrete5.gitignore: Concrete5.gitignore
   - templates/Coq.gitignore: Coq.gitignore
+  - templates/Cordova.gitignore: Cordova.gitignore
   - templates/CraftCMS.gitignore: CraftCMS.gitignore
   - templates/CUDA.gitignore: CUDA.gitignore
   - templates/CVS.gitignore: CVS.gitignore
-  - templates/DartEditor.gitignore: DartEditor.gitignore
-  - templates/Dart.gitignore: Dart.gitignore
-  - templates/Delphi.gitignore: Delphi.gitignore
   - templates/D.gitignore: D.gitignore
+  - templates/Dart.gitignore: Dart.gitignore
+  - templates/DartEditor.gitignore: DartEditor.gitignore
+  - templates/Delphi.gitignore: Delphi.gitignore
+  - templates/Diff.gitignore: Diff.gitignore
   - templates/DM.gitignore: DM.gitignore
   - templates/Dreamweaver.gitignore: Dreamweaver.gitignore
   - templates/Dropbox.gitignore: Dropbox.gitignore
   - templates/Drupal.gitignore: Drupal.gitignore
+  - templates/Drupal7.gitignore: Drupal7.gitignore
   - templates/Eagle.gitignore: Eagle.gitignore
   - templates/Eclipse.gitignore: Eclipse.gitignore
   - templates/EiffelStudio.gitignore: EiffelStudio.gitignore
@@ -53,6 +69,7 @@ copy:
   - templates/EPiServer.gitignore: EPiServer.gitignore
   - templates/Erlang.gitignore: Erlang.gitignore
   - templates/Espresso.gitignore: Espresso.gitignore
+  - templates/Exercism.gitignore: Exercism.gitignore
   - templates/ExpressionEngine.gitignore: ExpressionEngine.gitignore
   - templates/ExtJs.gitignore: ExtJs.gitignore
   - templates/Fancy.gitignore: Fancy.gitignore
@@ -63,24 +80,32 @@ copy:
   - templates/FuelPHP.gitignore: FuelPHP.gitignore
   - templates/Gcov.gitignore: Gcov.gitignore
   - templates/GitBook.gitignore: GitBook.gitignore
-  - templates/Godot.gitignore: Godot.gitignore
   - templates/Go.gitignore: Go.gitignore
+  - templates/Godot.gitignore: Godot.gitignore
   - templates/GPG.gitignore: GPG.gitignore
   - templates/Gradle.gitignore: Gradle.gitignore
   - templates/Grails.gitignore: Grails.gitignore
   - templates/GWT.gitignore: GWT.gitignore
   - templates/Haskell.gitignore: Haskell.gitignore
+  - templates/Hugo.gitignore: Hugo.gitignore
   - templates/Idris.gitignore: Idris.gitignore
   - templates/IGORPro.gitignore: IGORPro.gitignore
+  - templates/Images.gitignore: Images.gitignore
+  - templates/InforCMS.gitignore: InforCMS.gitignore
   - templates/Java.gitignore: Java.gitignore
   - templates/Jboss.gitignore: Jboss.gitignore
+  - templates/JBoss4.gitignore: JBoss4.gitignore
+  - templates/JBoss6.gitignore: JBoss6.gitignore
   - templates/JDeveloper.gitignore: JDeveloper.gitignore
   - templates/Jekyll.gitignore: Jekyll.gitignore
+  - templates/JEnv.gitignore: JEnv.gitignore
   - templates/JetBrains.gitignore: JetBrains.gitignore
   - templates/Joomla.gitignore: Joomla.gitignore
   - templates/Julia.gitignore: Julia.gitignore
+  - templates/JupyterNotebooks.gitignore: JupyterNotebooks.gitignore
   - templates/Kate.gitignore: Kate.gitignore
   - templates/KDevelop4.gitignore: KDevelop4.gitignore
+  - templates/Kentico.gitignore: Kentico.gitignore
   - templates/KiCad.gitignore: KiCad.gitignore
   - templates/Kohana.gitignore: Kohana.gitignore
   - templates/Kotlin.gitignore: Kotlin.gitignore
@@ -93,24 +118,31 @@ copy:
   - templates/Lilypond.gitignore: Lilypond.gitignore
   - templates/Linux.gitignore: Linux.gitignore
   - templates/Lithium.gitignore: Lithium.gitignore
+  - templates/Logtalk.gitignore: Logtalk.gitignore
   - templates/Lua.gitignore: Lua.gitignore
   - templates/LyX.gitignore: LyX.gitignore
   - templates/macOS.gitignore: macOS.gitignore
   - templates/Magento.gitignore: Magento.gitignore
+  - templates/Magento1.gitignore: Magento1.gitignore
   - templates/Matlab.gitignore: Matlab.gitignore
   - templates/Maven.gitignore: Maven.gitignore
   - templates/Mercurial.gitignore: Mercurial.gitignore
   - templates/Mercury.gitignore: Mercury.gitignore
   - templates/MetaProgrammingSystem.gitignore: MetaProgrammingSystem.gitignore
+  - templates/Meteor.gitignore: Meteor.gitignore
   - templates/MicrosoftOffice.gitignore: MicrosoftOffice.gitignore
   - templates/ModelSim.gitignore: ModelSim.gitignore
   - templates/Momentics.gitignore: Momentics.gitignore
   - templates/MonoDevelop.gitignore: MonoDevelop.gitignore
   - templates/Nanoc.gitignore: Nanoc.gitignore
+  - templates/NetBeans.gitignore: NetBeans.gitignore
+  - templates/Nikola.gitignore: Nikola.gitignore
   - templates/Nim.gitignore: Nim.gitignore
   - templates/Ninja.gitignore: Ninja.gitignore
   - templates/Node.gitignore: Node.gitignore
   - templates/NotepadPP.gitignore: NotepadPP.gitignore
+  - templates/Nuxt.gitignore: Nuxt.gitignore
+  - templates/NWjs.gitignore: NWjs.gitignore
   - templates/Objective-C.gitignore: Objective-C.gitignore
   - templates/OCaml.gitignore: OCaml.gitignore
   - templates/Opa.gitignore: Opa.gitignore
@@ -118,20 +150,28 @@ copy:
   - templates/OracleForms.gitignore: OracleForms.gitignore
   - templates/Otto.gitignore: Otto.gitignore
   - templates/Packer.gitignore: Packer.gitignore
+  - templates/Patch.gitignore: Patch.gitignore
   - templates/Perl.gitignore: Perl.gitignore
   - templates/Phalcon.gitignore: Phalcon.gitignore
+  - templates/Phoenix.gitignore: Phoenix.gitignore
+  - templates/Pimcore.gitignore: Pimcore.gitignore
   - templates/PlayFramework.gitignore: PlayFramework.gitignore
   - templates/Plone.gitignore: Plone.gitignore
   - templates/Prestashop.gitignore: Prestashop.gitignore
   - templates/Processing.gitignore: Processing.gitignore
+  - templates/PSoCCreator.gitignore: PSoCCreator.gitignore
+  - templates/Puppet.gitignore: Puppet.gitignore
   - templates/PureScript.gitignore: PureScript.gitignore
+  - templates/PuTTY.gitignore: PuTTY.gitignore
   - templates/Python.gitignore: Python.gitignore
   - templates/Qooxdoo.gitignore: Qooxdoo.gitignore
   - templates/Qt.gitignore: Qt.gitignore
+  - templates/R.gitignore: R.gitignore
+  - templates/Racket.gitignore: Racket.gitignore
   - templates/Rails.gitignore: Rails.gitignore
+  - templates/Red.gitignore: Red.gitignore
   - templates/Redcar.gitignore: Redcar.gitignore
   - templates/Redis.gitignore: Redis.gitignore
-  - templates/R.gitignore: R.gitignore
   - templates/RhodesRhomobile.gitignore: RhodesRhomobile.gitignore
   - templates/ROS.gitignore: ROS.gitignore
   - templates/Ruby.gitignore: Ruby.gitignore
@@ -147,6 +187,8 @@ copy:
   - templates/SketchUp.gitignore: SketchUp.gitignore
   - templates/SlickEdit.gitignore: SlickEdit.gitignore
   - templates/Smalltalk.gitignore: Smalltalk.gitignore
+  - templates/Snap.gitignore: Snap.gitignore
+  - templates/Splunk.gitignore: Splunk.gitignore
   - templates/Stata.gitignore: Stata.gitignore
   - templates/Stella.gitignore: Stella.gitignore
   - templates/SublimeText.gitignore: SublimeText.gitignore
@@ -161,6 +203,7 @@ copy:
   - templates/TeX.gitignore: TeX.gitignore
   - templates/TextMate.gitignore: TextMate.gitignore
   - templates/Textpattern.gitignore: Textpattern.gitignore
+  - templates/ThinkPHP.gitignore: ThinkPHP.gitignore
   - templates/TortoiseGit.gitignore: TortoiseGit.gitignore
   - templates/TurboGears2.gitignore: TurboGears2.gitignore
   - templates/Typo3.gitignore: Typo3.gitignore
@@ -170,14 +213,17 @@ copy:
   - templates/Vagrant.gitignore: Vagrant.gitignore
   - templates/Vim.gitignore: Vim.gitignore
   - templates/VirtualEnv.gitignore: VirtualEnv.gitignore
-  - templates/VisualStudioCode.gitignore: VisualStudioCode.gitignore
+  - templates/Virtuoso.gitignore: Virtuoso.gitignore
   - templates/VisualStudio.gitignore: VisualStudio.gitignore
+  - templates/VisualStudioCode.gitignore: VisualStudioCode.gitignore
+  - templates/Vue.gitignore: Vue.gitignore
   - templates/VVVV.gitignore: VVVV.gitignore
   - templates/Waf.gitignore: Waf.gitignore
   - templates/WebMethods.gitignore: WebMethods.gitignore
   - templates/Windows.gitignore: Windows.gitignore
   - templates/WordPress.gitignore: WordPress.gitignore
   - templates/Xcode.gitignore: Xcode.gitignore
+  - templates/Xilinx.gitignore: Xilinx.gitignore
   - templates/XilinxISE.gitignore: XilinxISE.gitignore
   - templates/Xojo.gitignore: Xojo.gitignore
   - templates/Yeoman.gitignore: Yeoman.gitignore

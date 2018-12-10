@@ -1,8 +1,15 @@
+# gitignore template for the Racket language
+# website: http://www.racket-lang.org/
+
+# DrRacket autosave files
 *.rkt~
 *.rkt.bak
 \#*.rkt#
 \#*.rkt#*#
-*.dep
+
+# Compiled racket bytecode
+compiled/
 *.zo
 
-compiled
+# Dependency tracking files
+*.dep

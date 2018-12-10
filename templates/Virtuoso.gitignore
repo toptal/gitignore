@@ -1,3 +1,6 @@
+# Gitignore for Cadence Virtuoso
+################################################################
+
 # Log files
 *.log
 panic*.log.*
@@ -12,3 +15,4 @@ drcRunDir/*
 # Abstract generation tool
 abstract.log*
 abstract.record*
+

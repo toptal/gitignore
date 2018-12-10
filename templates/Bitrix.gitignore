@@ -1,7 +1,7 @@
-# Bitrix .gitignore (core version 14+)
+# gitignore template for 1C-Bitrix, a PHP-based CMS
+# website: https://www.1c-bitrix.ru
 
 #Exclude all of core files
-/.htaccess
 /bitrix/*
 
 #But not the templates and non bitrix components
@@ -15,16 +15,9 @@
 
 #User can use that directory to store some stuff, but it's not really recommended, just use /local instead of this
 !/bitrix/php_interface/
-/local/php_interface/constants.php
 
 #Exclude database configs
 /bitrix/php_interface/dbconn.php
 
 #Exclude default file storage directory
 /upload/
-
-# Misc unused files
-/*.txt
-~*.php
-*.log
-*.xml

@@ -1,0 +1,13 @@
+/vendor
+/web/index.php
+/web/fileadmin/
+/web/FIRST_INSTALL
+/web/typo3
+/web/typo3conf/ENABLE_INSTALL_TOOL
+/web/typo3conf/deprecation*
+/web/typo3conf/PackageStates.php
+/web/typo3conf/ext/
+/web/typo3conf/l10n/
+/web/typo3conf/realurl_autoconf.php
+/web/typo3temp
+/web/uploads/
