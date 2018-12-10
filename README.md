@@ -16,6 +16,23 @@
 
 This project is also the canonical repository where the [https://www.gitignore.io](https://www.gitignore.io) template list comes from.  Here are the reasons behind the need for this repository: https://blog.joeblau.com/gitignore-io-template-fork
 
+## Testing
+
+This testing process ensures that the DVCS template list contains all of the changes from GitHub's template list.  The CI system will automatically listen to commits from GitHub and merge any changes.
+
+1. Pre-requisites
+
+```sh
+pip install moban
+```
+
+2. Sync repository with [GitHub](https://github.com/github/gitignore) and copy templates
+
+```sh
+./.travis/sync-github.sh
+moban
+```
+
 ## Files
 
 There are four file types that gitignore.io recognizes
