@@ -21,6 +21,8 @@
 docs.json
 __dummy.html
 docs/
+# Comment to allow dub lock file to be version controlled as well
+dub.selections.json
 
 # Code coverage
 *.lst
