@@ -1,6 +1,10 @@
 # http://www.gnu.org/software/automake
 
+# Generated source files
+# configure
+# Makefile
 Makefile.in
+
 /ar-lib
 /mdate-sh
 /py-compile
