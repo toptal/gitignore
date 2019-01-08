@@ -1,3 +1,6 @@
+# External projects
+*-prefix/
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
