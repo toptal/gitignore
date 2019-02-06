@@ -1,0 +1,6 @@
+# Zig programming language
+
+zig-cache/
+build/
+build-*/
+docgen_tmp/
