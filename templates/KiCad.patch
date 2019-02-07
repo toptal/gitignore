@@ -1,7 +1,7 @@
 escue-backup/
 
 *.tsv
- bom/
+bom/
 
-  # Gerber export output
- out/
+# Gerber export output
+out/
