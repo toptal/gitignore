@@ -1,0 +1,5 @@
+# Test Executables
+*-test-*
+
+# Comment to allow dub lock file to be version controlled as well
+dub.selections.json
