@@ -92,7 +92,7 @@ copy:
   - templates/Images.gitignore: Images.gitignore
   - templates/InforCMS.gitignore: InforCMS.gitignore
   - templates/Java.gitignore: Java.gitignore
-  - templates/Jboss.gitignore: Jboss.gitignore
+  - templates/JBoss.gitignore: JBoss.gitignore
   - templates/JBoss4.gitignore: JBoss4.gitignore
   - templates/JBoss6.gitignore: JBoss6.gitignore
   - templates/JDeveloper.gitignore: JDeveloper.gitignore
@@ -123,7 +123,7 @@ copy:
   - templates/macOS.gitignore: macOS.gitignore
   - templates/Magento.gitignore: Magento.gitignore
   - templates/Magento1.gitignore: Magento1.gitignore
-  - templates/Matlab.gitignore: Matlab.gitignore
+  - templates/MATLAB.gitignore: MATLAB.gitignore
   - templates/Maven.gitignore: Maven.gitignore
   - templates/Mercurial.gitignore: Mercurial.gitignore
   - templates/Mercury.gitignore: Mercury.gitignore
