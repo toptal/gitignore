@@ -1,0 +1,11 @@
+# TwinCAT Stack Base
+
+# TwinCAT 3.1
+
+*.tpy
+*.tmc
+*.tsproj.bak
+*.plcproj.bak
+_Boot/
+_CompileInfo/
+_Libraries/
