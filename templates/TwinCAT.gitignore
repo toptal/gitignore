@@ -8,6 +8,7 @@
 *.tmc
 *.tsproj.bak
 *.plcproj.bak
+*.project.~u
 _Boot/
 _CompileInfo/
 _Libraries/
