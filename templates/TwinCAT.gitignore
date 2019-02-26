@@ -9,6 +9,9 @@
 *.tsproj.bak
 *.plcproj.bak
 *.xti.bak
+*.tsproj.orig
+*.plcproj.orig
+*.xti.orig
 *.project.~u
 _Boot/
 _CompileInfo/
