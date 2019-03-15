@@ -11,4 +11,4 @@ modules.xml
 *.ipr
 
 # Sonarlint plugin
- .idea/sonarlint
+.idea/sonarlint
