@@ -1,5 +1,5 @@
 ## Ignore Atmel Studio temporary files and build results
-# http://www.atmel.com/microsite/atmel_studio6/
+# https://www.microchip.com/mplab/avr-support/atmel-studio-7
 
 # Atmel Studio is powered by an older version of Visual Studio,
 # so most of the project and solution files are the same as VS files,

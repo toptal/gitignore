@@ -9,6 +9,7 @@ before_script:
 script:
   - .travis/check-whitespace.sh
   - moban
+  - git diff --exit-code
 
 after_success:
   - .travis/build-parent.sh
