@@ -11,8 +11,11 @@ configuration:
     - ../temp-github-gitignore/community/Linux
     - ../temp-github-gitignore/community/PHP
     - ../temp-github-gitignore/community/Python
+    - ../temp-github-gitignore/community/embedded
 copy:
   - templates/Actionscript.gitignore: Actionscript.gitignore
+  - templates/AtmelStudio.gitignore: AtmelStudio.gitignore
+  - templates/IAR_EWARM.gitignore: IAR_EWARM.gitignore
   - templates/Ada.gitignore: Ada.gitignore
   - templates/Agda.gitignore: Agda.gitignore
   - templates/Android.gitignore: Android.gitignore
