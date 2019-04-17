@@ -21,3 +21,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Copy of file/directory
+*\ -\ Copy*.*
+*\ -\ Copy*/
