@@ -86,10 +86,12 @@ StyleCopReport.xml
 *.log
 *.vspscc
 *.vssscc
+*.vsscc
 .builds
 *.pidb
 *.svclog
 *.scc
+.tfignore
 
 # Chutzpah Test files
 _Chutzpah*
@@ -220,6 +222,7 @@ _pkginfo.txt
 
 # Others
 ClientBin/
+~sak*.*
 ~$*
 *~
 *.dbmdl
