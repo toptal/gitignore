@@ -60,6 +60,18 @@ Build/*/**
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
+# Don't ignore icon and splash images for mobile app
+!Build/IOS/Resources/
+Build/IOS/Resources/*
+!Build/IOS/Resources/Graphics/
+Build/IOS/Resources/Graphics/*
+!Build/IOS/Resources/Graphics/*.png
+!Build/Android/res/
+Build/Android/res/*
+!Build/Android/res/*/
+Build/Android/res/*/*
+!Build/Android/res/*/*.png
+
 # Built data for maps
 *_BuiltData.uasset
 
