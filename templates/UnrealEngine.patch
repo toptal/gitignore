@@ -1,0 +1,11 @@
+# Don't ignore icon and splash images for mobile app
+!Build/IOS/Resources/
+Build/IOS/Resources/*
+!Build/IOS/Resources/Graphics/
+Build/IOS/Resources/Graphics/*
+!Build/IOS/Resources/Graphics/*.png
+!Build/Android/res/
+Build/Android/res/*
+!Build/Android/res/*/
+Build/Android/res/*/*
+!Build/Android/res/*/*.png
