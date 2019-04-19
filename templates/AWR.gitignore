@@ -1,0 +1,7 @@
+### National Instruments AWR ###
+*.dsf
+*.dsf.ext
+*.dsf.ext*
+*.emi
+*.opt
+*.stderr.txt
