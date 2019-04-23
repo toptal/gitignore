@@ -1,0 +1,6 @@
+# gitignore template for NodeChakra Time Travel Debug
+# website: https://marketplace.visualstudio.com/items?itemName=ttd-trace-tools.node-chakracore-time-travel-debugger
+
+# Ignore time-travel trace files
+# https://github.com/mrkmarron/node-chakracore-time-travel-debugger#notes
+_ttd_log_
