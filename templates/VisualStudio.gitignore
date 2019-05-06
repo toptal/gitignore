@@ -76,6 +76,7 @@ StyleCopReport.xml
 *.pgc
 *.pgd
 *.rsp
+!msbuid.rsp #override command line options when building with msbuild.
 *.sbr
 *.tlb
 *.tli
