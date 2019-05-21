@@ -1,6 +1,0 @@
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
-#
