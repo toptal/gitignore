@@ -89,6 +89,7 @@ copy:
   - templates/Grails.gitignore: Grails.gitignore
   - templates/GWT.gitignore: GWT.gitignore
   - templates/Haskell.gitignore: Haskell.gitignore
+  - templates/Helm.gitignore: Helm.gitignore
   - templates/Hugo.gitignore: Hugo.gitignore
   - templates/Idris.gitignore: Idris.gitignore
   - templates/IGORPro.gitignore: IGORPro.gitignore
