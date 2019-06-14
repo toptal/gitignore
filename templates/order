@@ -2,5 +2,8 @@ java
 # gradle needs gradle-wrapper.jar
 gradle
 
+# Android Studio needs gradle-wrapper.jar
+androidstudio
+
 visualstudio
 umbraco
