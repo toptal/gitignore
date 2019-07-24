@@ -112,6 +112,11 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
 # mkdocs documentation
 /site
 
