@@ -86,3 +86,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
