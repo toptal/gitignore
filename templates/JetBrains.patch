@@ -6,11 +6,4 @@
 # *.ipr
 
 # Sonarlint plugin
-.idea/**/sonarlint/
-
-# SonarQube Plugin
-.idea/**/sonarIssues.xml
-
-# Markdown Navigator plugin
-.idea/**/markdown-navigator.xml
-.idea/**/markdown-navigator/
+.idea/sonarlint
