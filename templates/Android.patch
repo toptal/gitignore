@@ -1,2 +1,6 @@
 gen-external-apklibs
 output.json
+
+# Replacement of .externalNativeBuild directories introduced
+# with Android Studio 3.5.
+.cxx/
