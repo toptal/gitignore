@@ -1,9 +1,3 @@
-# Eclipse Core
-.project
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
 # Annotation Processing
 .apt_generated
 
