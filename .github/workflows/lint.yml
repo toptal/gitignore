@@ -25,3 +25,4 @@ jobs:
         moban
         git diff --exit-code
     - name: Rebuild gitignore.io
+      run: .github/scripts/build-parent.sh
