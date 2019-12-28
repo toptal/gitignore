@@ -27,8 +27,3 @@ setup.log
 
 # Local OPAM switch
 _opam/
-
-# Esy-related generated files
-_esy/
-_build.prev/
-node_modules/

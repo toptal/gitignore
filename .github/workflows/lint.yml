@@ -1,0 +1,27 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install moban
+    - name: Sync GitHub's master template repository of templates
+      run: .github/scripts/sync-github.sh
+    - name: Lint templates for white space then run moban
+      run: |
+        .github/scripts/check-whitespace.sh
+        moban
+        git diff --exit-code
+    - name: Rebuild gitignore.io

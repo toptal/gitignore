@@ -1,14 +1,9 @@
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
 
-node_modules
-bower_components
+# TODO: where does this rule come from?
+docs/_book
 
-*.sublime*
-
-psd
-thumb
-sketch
+# TODO: where does this rule come from?
+test/
