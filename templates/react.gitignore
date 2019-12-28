@@ -5,7 +5,7 @@ logs
 **/*.back.*
 
 node_modules
-bower_componets
+bower_components
 
 *.sublime*
 
