@@ -1,5 +1,9 @@
-#Template for AL projects for Dynamics 365 BC
+#Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
 .vscode/
 #Symbols folder
 .alpackages/
+#Extension App-file
+*.app
+#Translation Base-file
+*.g.xlf
