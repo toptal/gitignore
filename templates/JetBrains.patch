@@ -13,4 +13,5 @@
 
 # Markdown Navigator plugin
 .idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
 .idea/**/markdown-navigator/
