@@ -142,6 +142,7 @@ copy:
   - templates/Nim.gitignore: Nim.gitignore
   - templates/Ninja.gitignore: Ninja.gitignore
   - templates/Node.gitignore: Node.gitignore
+  - templates/Nohup.gitignore: Nohup.gitignore
   - templates/NotepadPP.gitignore: NotepadPP.gitignore
   - templates/Nuxt.gitignore: Nuxt.gitignore
   - templates/NWjs.gitignore: NWjs.gitignore
