@@ -1,4 +1,5 @@
 *.pem
 *.key
 *.crt
+*.cer
 *.priv
