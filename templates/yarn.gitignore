@@ -5,3 +5,9 @@
 # prevent Zero-Installs from working (to prevent this, set enableScripts to false).
 .yarn/unplugged
 .yarn/build-state.yml
+
+# .yarn/cache and .pnp.* may be safely ignored, but you'll need to run yarn install
+# to regenerate them between each branch switch.
+# Uncomment the following lines if you're not using Zero-Installs:
+# .yarn/cache
+# .pnp.*
