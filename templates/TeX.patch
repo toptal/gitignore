@@ -1,2 +1,5 @@
+# LIPIcs / OASIcs
+*.vtc
+
 # glossaries
 *.glstex
