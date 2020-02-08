@@ -1,10 +1,2 @@
-# Eclipse Core
-.project
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-# Annotation Processing
-.apt_generated
-
+# Spring Boot Tooling
 .sts4-cache/
