@@ -87,6 +87,7 @@ copy:
   - templates/Godot.gitignore: Godot.gitignore
   - templates/GPG.gitignore: GPG.gitignore
   - templates/Grails.gitignore: Grails.gitignore
+  - templates/Groovy.gitignore: Groovy.gitignore
   - templates/GWT.gitignore: GWT.gitignore
   - templates/Haskell.gitignore: Haskell.gitignore
   - templates/Hugo.gitignore: Hugo.gitignore
