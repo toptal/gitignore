@@ -1,12 +1,3 @@
-# Binaries
-*
-!*.*
-!*/
-
 nimcache/
 nimblecache/
 htmldocs/
-
-# Test coverage
-coverage/*
-lcov.info
