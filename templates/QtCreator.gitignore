@@ -24,3 +24,7 @@
 
 # Qt Creator backups
 *.autosave
+
+# Flags for Clang Code Model
+*.cxxflags
+*.cflags
