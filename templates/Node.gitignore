@@ -1,3 +1,37 @@
+# Package Files #
+*.7z
+*.jar
+*.war
+*.ear
+*.rar
+*.zip
+*.tar.gz
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.cab
+
+#packing-only formats
+*.iso
+*.tar
+
+#package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+
+# Backups
+*~
+*.bak
+
 # Logs
 logs
 *.log
@@ -36,6 +70,9 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+
+# Dependency
+package-lock.json
 
 # Dependency directories
 node_modules/
@@ -80,7 +117,10 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
+# rollup.js default build output
+build/
+dist/
 
 # Gatsby files
 .cache/
@@ -105,3 +145,21 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon\r\r
+
+# Temporary folders
+tmp/
+temp/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
