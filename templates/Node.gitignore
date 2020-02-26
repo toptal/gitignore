@@ -170,6 +170,7 @@ temp/
 .idea/
 
 # eclipse project files
+.metadata
 .settings/
 .classpath
 .project
