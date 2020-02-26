@@ -166,10 +166,16 @@ temp/
 *.ipr
 .idea/
 
-# eclipse project file
+# eclipse project files
 .settings/
 .classpath
 .project
+
+# VS Code project files
+.vs/*/v16/.suo
+*.njsproj
+*.njsproj.user
+*.sln
 
 # NetBeans specific
 nbproject/private/
