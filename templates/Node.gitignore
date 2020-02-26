@@ -15,6 +15,7 @@
 
 #packing-only formats
 *.iso
+*.sar
 *.tar
 
 #package management formats
@@ -120,6 +121,7 @@ typings/
 
 # rollup.js default build output
 build/
+target/
 dist/
 
 # Gatsby files
@@ -158,8 +160,23 @@ Icon\r\r
 tmp/
 temp/
 
-# IntelliJ
-.idea/
+# IntelliJ project files 
 *.iml
-*.ipr
 *.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
