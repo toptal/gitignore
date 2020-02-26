@@ -75,7 +75,7 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency
+# Optional Lock Dependency (required by use npm ci)
 package-lock.json
 
 # Dependency directories
@@ -155,6 +155,10 @@ dist/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+### Windows ###
+Thumbs.db
+Desktop.ini
 
 # Icon must end with two \r
 Icon\r\r
