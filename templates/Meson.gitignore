@@ -1,0 +1,3 @@
+# subproject directories
+/subprojects/*
+!/subprojects/*.wrap
