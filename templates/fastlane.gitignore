@@ -17,3 +17,6 @@ fastlane/screenshots/screenshots.html
 
 # scan temporary files
 fastlane/test_output
+
+# Fastlane.swift runner binary
+fastlane/FastlaneRunner
