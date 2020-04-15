@@ -7,3 +7,6 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+.kitchen.*.local.yml
+kitchen.local.yml
+kitchen.*.local.yml
