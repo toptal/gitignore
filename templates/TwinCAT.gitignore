@@ -3,6 +3,8 @@
 # TwinCAT 3.1
 
 *.tpy
+# ignoring the TMC file is only useful for plain PLC programming
+# as soon as shared data types (via tmc), C++ or in general TcCom-Module are used, the TMC file has to be part of the repository
 *.tmc
 *.tsproj.bak
 *.plcproj.bak
