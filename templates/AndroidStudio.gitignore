@@ -45,6 +45,10 @@ captures/
 *~
 *.swp
 
+# Keystore files
+*.jks
+*.keystore
+
 # Android Patch
 gen-external-apklibs
 
