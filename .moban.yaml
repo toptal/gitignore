@@ -212,6 +212,7 @@ targets:
   - templates/ThinkPHP.gitignore: ThinkPHP.gitignore
   - templates/TortoiseGit.gitignore: TortoiseGit.gitignore
   - templates/TurboGears2.gitignore: TurboGears2.gitignore
+  - templates/Tye.gitignore: Tye.gitignore
   - templates/Typo3.gitignore: Typo3.gitignore
   - templates/Umbraco.gitignore: Umbraco.gitignore
   - templates/Unity.gitignore: Unity.gitignore
