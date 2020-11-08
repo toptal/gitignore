@@ -3,6 +3,7 @@
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
+.fvm/
 .packages
 .pub-cache/
 .pub/
