@@ -1,0 +1,4 @@
+# gitignore template for the Compodoc, UI guide for front apps
+# website: https://compodoc.app/
+
+documentation/
