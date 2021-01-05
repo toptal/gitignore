@@ -5,7 +5,7 @@ Debug
 *.user
 obj
 bin
-/build/
+build/
 *.exe
 !.paket/paket.bootstrapper.exe
 .ionide/
