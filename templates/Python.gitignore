@@ -50,6 +50,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+pytestdebug.log
 
 # Translations
 *.mo
@@ -70,6 +71,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+doc/_build/
 
 # PyBuilder
 target/
@@ -109,6 +111,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pythonenv*
 
 # Spyder project settings
 .spyderproject
@@ -134,3 +137,7 @@ dmypy.json
 # operating system-related files
 *.DS_Store #file properties cache/storage on macOS
 Thumbs.db #thumbnail cache on Windows
+
+# profiling data
+.prof
+

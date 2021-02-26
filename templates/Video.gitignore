@@ -4,10 +4,13 @@
 *.asx
 *.avi
 *.flv
+*.mkv
 *.mov
 *.mp4
 *.mpg
+*.ogv
 *.rm
 *.swf
 *.vob
 *.wmv
+*.webm

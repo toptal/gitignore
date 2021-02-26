@@ -3,8 +3,10 @@ configuration:
     - ../temp-github-gitignore
     - ../temp-github-gitignore/Global
     - ../temp-github-gitignore/community
+    - ../temp-github-gitignore/community/AWS
     - ../temp-github-gitignore/community/DotNet
     - ../temp-github-gitignore/community/Elixir
+    - ../temp-github-gitignore/community/GNOME
     - ../temp-github-gitignore/community/Golang
     - ../temp-github-gitignore/community/Java
     - ../temp-github-gitignore/community/JavaScript
@@ -12,7 +14,7 @@ configuration:
     - ../temp-github-gitignore/community/PHP
     - ../temp-github-gitignore/community/Python
     - ../temp-github-gitignore/community/embedded
-copy:
+targets:
   - templates/Actionscript.gitignore: Actionscript.gitignore
   - templates/AtmelStudio.gitignore: AtmelStudio.gitignore
   - templates/IAR_EWARM.gitignore: IAR_EWARM.gitignore
@@ -210,6 +212,7 @@ copy:
   - templates/ThinkPHP.gitignore: ThinkPHP.gitignore
   - templates/TortoiseGit.gitignore: TortoiseGit.gitignore
   - templates/TurboGears2.gitignore: TurboGears2.gitignore
+  - templates/Tye.gitignore: Tye.gitignore
   - templates/Typo3.gitignore: Typo3.gitignore
   - templates/Umbraco.gitignore: Umbraco.gitignore
   - templates/Unity.gitignore: Unity.gitignore

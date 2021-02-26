@@ -3,7 +3,10 @@
 .vscode/
 #Symbols folder
 .alpackages/
+#Snapshots folder
+.snapshots/
 #Extension App-file
 *.app
 #Translation Base-file
 *.g.xlf
+
