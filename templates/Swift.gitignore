@@ -66,9 +66,9 @@ playground.xcworkspace
 
 Carthage/Build/
 
-# Accio dependency management
-Dependencies/
-.accio/
+# Add this lines if you are using Accio dependency management (Deprecated since Xcode 12)
+# Dependencies/
+# .accio/
 
 # fastlane
 #
