@@ -228,7 +228,6 @@ targets:
   - templates/Waf.gitignore: Waf.gitignore
   - templates/WebMethods.gitignore: WebMethods.gitignore
   - templates/Windows.gitignore: Windows.gitignore
-  - templates/WordPress.gitignore: WordPress.gitignore
   - templates/Xcode.gitignore: Xcode.gitignore
   - templates/Xilinx.gitignore: Xilinx.gitignore
   - templates/XilinxISE.gitignore: XilinxISE.gitignore
