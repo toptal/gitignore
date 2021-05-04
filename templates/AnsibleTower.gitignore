@@ -1,0 +1,24 @@
+# Ansible runtime and backups
+*.original
+*.tmp
+*.bkp
+*.retry
+*.*~
+
+# Tower runtime roles 
+roles/**
+!roles/requirements.yml
+
+# Avoid plain-text passwords 
+*pwd*
+*pass*
+*password*
+*.txt
+
+# Exclude all binaries
+*.bin
+*.jar
+*.tar
+*.zip
+*.gzip
+*.tgz
