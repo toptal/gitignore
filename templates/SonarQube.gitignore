@@ -3,6 +3,7 @@
 # https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
 # Sonar Scanner working directories
 .sonar/
+.sonarqube/
 .scannerwork/
 
 # http://www.sonarlint.org/commandline/
