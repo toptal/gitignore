@@ -1,0 +1,13 @@
+# Azurite queue
+__queuestorage__
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json
+
+# Azurite blob
+__blobstorage__
+__azurite_db_blob__.json
+__azurite_db_blob_extent__.json
+
+# Azurite table
+__azurite_db_table__.json
+__azurite_db_table_extent__.json
