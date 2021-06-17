@@ -11,12 +11,6 @@
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
 # Compiled Dynamic libraries
 *.so
 *.dylib

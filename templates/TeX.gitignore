@@ -108,9 +108,6 @@ acs-*.bib
 *.glg
 *.glo
 *.gls
-*.*-glg
-*.*-glo
-*.*-gls
 *.glsdefs
 *.lzo
 *.lzs
@@ -123,6 +120,7 @@ acs-*.bib
 
 # gregoriotex
 *.gaux
+*.glog
 *.gtex
 
 # htlatex
@@ -138,8 +136,8 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
+# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# *.tikz
 *-tikzDictionary
 
 # listings
@@ -157,7 +155,6 @@ acs-*.bib
 *.maf
 *.mlf
 *.mlt
-*.mtc
 *.mtc[0-9]*
 *.slf[0-9]*
 *.slt[0-9]*
@@ -169,6 +166,9 @@ _minted*
 
 # morewrites
 *.mw
+
+# newpax
+*.newpax
 
 # nomencl
 *.nlg
@@ -278,6 +278,9 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# xwatermark package
+*.xwm
 
 # REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
