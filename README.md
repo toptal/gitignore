@@ -29,8 +29,14 @@ pip install moban
 2. Sync repository with [GitHub](https://github.com/github/gitignore) and copy templates
 
 ```sh
-./.travis/sync-github.sh
+./.github/scripts/sync-github.sh
 moban
+```
+
+3. Make sure you don't commit files with blank lines or missing EOF line
+
+```sh
+./.github/scripts/check-whitespace.sh
 ```
 
 ## Files

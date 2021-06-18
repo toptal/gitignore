@@ -5,11 +5,11 @@
 *.retry
 *.*~
 
-# Tower runtime roles 
+# Tower runtime roles
 roles/**
 !roles/requirements.yml
 
-# Avoid plain-text passwords 
+# Avoid plain-text passwords
 *pwd*
 *pass*
 *password*
@@ -22,3 +22,4 @@ roles/**
 *.zip
 *.gzip
 *.tgz
+
