@@ -19,10 +19,10 @@ jobs:
         pip install moban
     - name: Sync GitHub's master template repository of templates
       run: .github/scripts/sync-github.sh
-    - name: Lint templates for white space then run moban
+    - name: Run moban then lint templates for white space
       run: |
-        .github/scripts/check-whitespace.sh
         moban
+        .github/scripts/check-whitespace.sh
         git diff --exit-code
     - name: Rebuild gitignore.io
       run: .github/scripts/build-parent.sh
