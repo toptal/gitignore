@@ -1,6 +1,6 @@
 # Pull Request
 
-Thank you for contributing to @dvcs/gitignore and https://www.gitignore.io.
+Thank you for contributing to @toptal/gitignore and https://www.gitignore.io.
 
 ## New or update
 
