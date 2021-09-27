@@ -170,6 +170,7 @@ targets:
   - templates/PureScript.gitignore: PureScript.gitignore
   - templates/PuTTY.gitignore: PuTTY.gitignore
   - templates/Python.gitignore: Python.gitignore
+  - templates/PythonVanilla.gitignore: PythonVanilla.gitignore
   - templates/Qooxdoo.gitignore: Qooxdoo.gitignore
   - templates/Qt.gitignore: Qt.gitignore
   - templates/R.gitignore: R.gitignore
