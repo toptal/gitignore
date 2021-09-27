@@ -1,0 +1,5 @@
+# yalc
+# https://www.npmjs.com/package/yalc/v/1.0.0-pre.17#keep-it-out-of-git
+
+.yalc
+yalc.lock
