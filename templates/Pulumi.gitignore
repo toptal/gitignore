@@ -1,0 +1,4 @@
+# Ignore temp build directory for Pulumi
+# Info: https://www.pulumi.com/docs/
+
+.pulumi/
