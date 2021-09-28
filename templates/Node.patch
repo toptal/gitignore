@@ -1,2 +1,5 @@
 # Serverless Webpack directories
 .webpack/
+
+# Optional stylelint cache
+.stylelintcache
