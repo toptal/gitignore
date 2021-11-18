@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# GDB history file
+.gdb_history
