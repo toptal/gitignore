@@ -92,15 +92,6 @@ obj/
 .idea/jarRepositories.xml
 .idea/navEditor.xml
 
-# OS-specific files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
 # Legacy Eclipse project files
 .classpath
 .project
