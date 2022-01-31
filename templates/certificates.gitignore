@@ -2,4 +2,5 @@
 *.key
 *.crt
 *.cer
+*.der
 *.priv

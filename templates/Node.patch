@@ -3,3 +3,6 @@
 
 # Optional stylelint cache
 .stylelintcache
+
+# SvelteKit build / generate output
+.svelte-kit
