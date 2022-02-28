@@ -6,3 +6,6 @@
 
 # SvelteKit build / generate output
 .svelte-kit
+
+# Turborepo task cache
+.turbo
