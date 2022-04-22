@@ -1,0 +1,8 @@
+# Covers PHP CS Fixer
+# Reference: https://cs.symfony.com/
+
+# Generated files
+.php-cs-fixer.cache
+
+# Local config See: https://cs.symfony.com/doc/config.html
+.php-cs-fixer.php
