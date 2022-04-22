@@ -1,9 +1,8 @@
 name: CI
 
 on:
+  workflow_dispatch:
   push:
-    branches: [master]
-  pull_request:
     branches: [master]
 
 jobs:
@@ -27,8 +26,29 @@ jobs:
       run: .github/scripts/sync-github.sh
     - name: Run moban then lint templates for white space
       run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+        git branch sync_github master
+        git checkout sync_github
+
         moban
         .github/scripts/check-whitespace.sh
-        git diff --exit-code
-    - name: Rebuild gitignore.io
-      run: .github/scripts/build-parent.sh
+
+        git add .
+        git commit -m "Sync Templates with Github"
+        git push -f origin sync_github
+    # Creates a PR with the new combined branch
+    - uses: actions/github-script@v3
+      name: Create Pull Request
+      with:
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        script: |
+          await github.pulls.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: 'Sync Github',
+            head: 'sync_github',
+            base: 'master',
+            body: 'This PR was created by the CI Github action fetching updates from Github'
+          });
