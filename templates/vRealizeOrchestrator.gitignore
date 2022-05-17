@@ -1,0 +1,24 @@
+# Default Resource Elements
+Resources/Library/*
+
+# Library Workflows
+Workflows/Library
+
+# Environment Specific variables
+Configurations/*
+
+# Multi-Node Workflows
+Workflows/VCO@*
+
+# All Packages
+**/Packages/
+
+# Test actions
+Actions/test/*
+
+# All packages, resources, configurations, policies and Workflows
+**/Packages/
+**/Resources/
+**/Configurations/
+**/Workflows/
+**/Policy Templates/
