@@ -11,7 +11,7 @@
 /out/
 
 # Production
-/Build
+/build
 
 # Misc
 .DS_Store
@@ -31,3 +31,7 @@ yarn-error.log*
 
 # Vercel
 .vercel
+
+#editors
+.idea
+.vscode
