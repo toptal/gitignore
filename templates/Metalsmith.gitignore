@@ -1,0 +1,4 @@
+# gitignore template for the Metalsmith, a simple, pluggable static site generator
+# website: https://metalsmith.io/
+
+build
