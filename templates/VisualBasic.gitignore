@@ -24,9 +24,6 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
-# Ignore all subdirectories
-*/*
-
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
