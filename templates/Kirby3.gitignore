@@ -1,3 +1,7 @@
+# Uncomment if you install core files via composer
+# kirby
+# site/plugins/*
+
 # Temporary files
 /media/*
 !/media/index.html
