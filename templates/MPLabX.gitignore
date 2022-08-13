@@ -1,6 +1,7 @@
-#Ignore List for Microchips MPLabX IDE
-#Form of netbeans with vendor specific changes
+#Ignore List for Microchip's MPLAB X IDE
+#It's a form of NetBeans with vendor specific changes
 #Taken from zeha on GIST https://gist.github.com/zeha/5999375
+#Updated by Cristian Cristea (https://github.com/cristiancristea00)
 
 *.d
 *.pre
@@ -11,6 +12,11 @@
 *.o
 *.sdb
 *.obj.dmp
+*.mk
+*.map
+*.properties
+*.production
+*.debug
 html/
 nbproject/private/
 nbproject/Package-*.bash
@@ -23,4 +29,4 @@ nb-configuration.xml
 funclist
 nbproject/Makefile-*
 disassembly/
-*.map
+.generated_files/
