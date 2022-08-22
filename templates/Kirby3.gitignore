@@ -1,0 +1,29 @@
+# Uncomment if you install core files via composer
+# kirby
+# site/plugins/*
+
+# Temporary files
+/media/*
+!/media/index.html
+
+# Lock files
+.lock
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+/site/config/.license
