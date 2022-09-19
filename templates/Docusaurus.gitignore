@@ -1,0 +1,5 @@
+# Docusaurus cache and generated files
+.docusaurus
+
+# Docusaurus Build Directory
+/build/
