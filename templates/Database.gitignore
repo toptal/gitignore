@@ -4,5 +4,5 @@
 *.mdb
 *.pdb
 *.sqlite3
-*.db-shm # sqlite shared memory file
-*.db-wal # sqlite write ahead log file
+*.db-shm
+*.db-wal
