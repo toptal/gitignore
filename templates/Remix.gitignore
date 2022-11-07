@@ -1,0 +1,29 @@
+# Basics
+node_modules
+/.cache
+/build
+/public/build
+.env
+
+# Arc
+/server/index.js
+preferences.arc
+sam.json
+sam.yaml
+
+# Cloudflare Pages
+/functions/\[\[path\]\].js
+/functions/\[\[path\]\].js.map
+
+# Cloudflare Workers
+/dist
+/.mf
+
+# Netlify
+/.netlify
+
+# Vercel
+.vercel
+.output
+/api/index.js
+/api/index.js.map
