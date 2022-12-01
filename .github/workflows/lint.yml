@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 15
 
     steps:
-    - uses: actions/checkout@v2.3.3
+    - uses: actions/checkout@v3
 
     - name: Set up Python 3.7
       uses: actions/setup-python@v2
@@ -43,7 +43,7 @@ jobs:
         git push -f origin sync_github
 
     # Creates a PR with the new combined branch
-    - uses: actions/github-script@v3
+    - uses: actions/github-script@v6
       name: Create Pull Request
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
