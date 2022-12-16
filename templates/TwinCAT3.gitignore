@@ -12,6 +12,8 @@
 *.compileinfo
 LineIDs.dbg
 LineIDs.dbg.bak
+*.asm
+*.core
 
 *.tmcRefac
 
