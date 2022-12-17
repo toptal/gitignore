@@ -1,5 +1,4 @@
 # Pants workspace files
-/.pants.d/
+/.pants.*
 /dist/
 /.pids
-/.pants.workdir.file_lock*
