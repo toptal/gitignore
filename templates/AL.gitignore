@@ -9,8 +9,3 @@
 *.app
 #Translation Base-file
 *.g.xlf
-#Licenses
-*.flf
-*.bclicense
-#Rapid Application Development deltas
-rad.json
