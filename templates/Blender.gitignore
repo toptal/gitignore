@@ -1,0 +1,2 @@
+# Ignore temporary Blender files.
+*.blend[0-9]*
