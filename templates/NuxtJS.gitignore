@@ -4,3 +4,10 @@ dist
 .nuxt-*
 .output
 .gen
+
+
+# Node dependencies
+node_modules
+
+# System files
+*.log
