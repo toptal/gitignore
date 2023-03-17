@@ -5,7 +5,6 @@ dist
 .output
 .gen
 
-
 # Node dependencies
 node_modules
 
