@@ -1,22 +1,24 @@
 # Pull Request
 
-Thank you for contributing to @toptal/gitignore and https://www.gitignore.io.
+Thank you for contributing to @toptal/gitignore and <https://www.gitignore.io>!
 
-## New or update
+## Type of Change
 
-Select the appropriate check box for this pull request. This helps when merging to ensure there are no conflicts with other templates or misunderstandings of how thee template list works.
+<!--
+Select the appropriate check box for this pull request.
 
-### New
+This helps when merging to ensure no conflicts with other templates or misunderstandings of how the template list works.
+-->
 
-- [ ] Template - New `.gitignore` template
-- [ ] Composition - Template made from smaller templates
-- [ ] Inheritance - Template similar to an existing template
-- [ ] Patch - Template extending functionality of existing template
-
-### Update
-
-- [ ] Template - Update existing `.gitignore` template
+- [ ] **New** Template -- *A new `.gitignore` template.*
+- [ ] **New** Composition -- *A template made from smaller templates.*
+- [ ] **New** Inheritance -- *A template similar to an existing template.*
+- [ ] **New** Patch -- *A template extending the functionality of an existing template.*
+- [ ] **Updated** Template -- *An update to an existing `.gitignore` template.*
+- [ ] **Other** -- *A change to another part of the repository.*
 
 ## Details
 
-*replace this section with links and/or info about the proposed request*
+<!--
+Replace this section with information and links explaining this Pull Request.
+-->
