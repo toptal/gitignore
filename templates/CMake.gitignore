@@ -4,6 +4,7 @@ CMakeFiles
 CMakeScripts
 Testing
 Makefile
+build.ninja
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
