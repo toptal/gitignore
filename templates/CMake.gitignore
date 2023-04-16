@@ -3,8 +3,10 @@ CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
-Makefile
+/Makefile
 build.ninja
+.ninja_log
+.ninja_deps
 debug/
 debug.log
 CTestTestfile.cmake
