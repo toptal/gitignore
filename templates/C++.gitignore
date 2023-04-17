@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Preprocessor output
+*.i
+
 # Compiled Object files
 *.slo
 *.lo

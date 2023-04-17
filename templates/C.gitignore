@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Preprocessor output
+*.i
+
 # Object files
 *.o
 *.ko
