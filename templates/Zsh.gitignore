@@ -5,6 +5,9 @@
 # Zsh completion-optimization dumpfile
 *zcompdump*
 
+# Zsh history
+.zsh_history
+
 # Zsh zcalc history
 .zcalc_history
 
