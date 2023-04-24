@@ -8,6 +8,9 @@
 # Zsh history
 .zsh_history
 
+# Zsh sessions
+.zsh_sessions
+
 # Zsh zcalc history
 .zcalc_history
 
