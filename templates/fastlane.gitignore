@@ -1,7 +1,5 @@
 # fastlane - A streamlined workflow tool for Cocoa deployment
 #
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
@@ -11,7 +9,8 @@
 # deliver temporary files
 **/fastlane/Preview.html
 
-# snapshot generated screenshots
+# It is recommended that snapshot generated screenshots not be stored in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
 **/fastlane/screenshots
 
 # scan temporary files
@@ -19,3 +18,6 @@
 
 # Fastlane.swift runner binary
 **/fastlane/FastlaneRunner
+
+# Fastlane generated README
+**/fastlane/README.md
