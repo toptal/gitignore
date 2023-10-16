@@ -1,7 +1,8 @@
-# Ignore everything but code style settings and run configurations
-# that are supposed to be shared within teams.
+# Ignore everything but code style settings, run configurations and
+# external dependencies that are supposed to be shared within teams.
 
 .idea/*
 
 !.idea/codeStyles
 !.idea/runConfigurations
+!.idea/externalDependencies.xml
