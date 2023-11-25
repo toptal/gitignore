@@ -6,3 +6,8 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+#   .pdm-python contains information about the local Python interpreter and shouldn't be included
+#   in version control.
+#   https://pdm-project.org/latest/usage/project/#working-with-version-control
+.pdm-python
