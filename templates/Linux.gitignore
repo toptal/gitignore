@@ -11,3 +11,6 @@
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+# core. files are generated when a program crashes, and they contain the program's memory that was dumped at the time of the crash
+core.*
