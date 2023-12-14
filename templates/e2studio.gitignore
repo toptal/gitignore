@@ -1,4 +1,4 @@
-# Modified gitignore for Renesas E2Studio (Built on eclipse): maintain all data needed by eclipse to setting up a workspace.
+# Modified gitignore for Renesas E2Studio (Built on eclipse): maintain all data needed by eclipse to setting up a project.
 
 .history
 *.tmp
@@ -8,4 +8,5 @@ history.index
 
 # E2 Studio Specific
 HardwareDebug/src
-
+trash
+.metadata
