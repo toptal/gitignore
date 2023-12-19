@@ -3,22 +3,31 @@
 
 # Stata dataset and output files
 *.dta
+*.dtas
+*.dtasig
 *.gph
+*.grec
+*.irf
 *.log
+*.raw
 *.smcl
 *.stpr
 *.stsem
+*.stswp
 
 # Graphic export files from Stata
-# Stata command graph export: http://www.stata.com/manuals14/g-2graphexport.pdf
+# Stata command graph export: https://www.stata.com/manuals/g-2graphexport.pdf
 #
 # You may add graphic export files to your .gitignore. However you should be
 # aware that this will exclude all image files from this main directory
 # and subdirectories.
-# *.ps
-# *.eps
-# *.wmf
 # *.emf
+# *.eps
+# *.gif
+# *.jpg
 # *.pdf
 # *.png
+# *.ps
+# *.svg
 # *.tif
+# *.wmf
