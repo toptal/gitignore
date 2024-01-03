@@ -1,2 +1,15 @@
-# config dir
+# all Obsidian's settings (including plugin and hotkey configurations)
 .obsidian/
+
+# plugin configuration, might be useful to prevent some plugin from exposing sensitive data
+# .obsidian/plugins
+
+# workspace cache
+# .obsidian/workspace.json
+
+# workspace cache specific to mobile devices
+# .obsidian/workspace-mobile.json
+
+# OS settings and caches
+# .trash/
+# .DS_Store
