@@ -9,8 +9,9 @@ meson-private
 # Meson Files
 meson_benchmark_setup.dat
 meson_test_setup.dat
-sanitycheckcpp.cc     # C++ specific
-sanitycheckcpp.exe    # C++ specific
+# C++ specific
+sanitycheckcpp.cc
+sanitycheckcpp.exe
 
 # Ninja
 build.ninja
