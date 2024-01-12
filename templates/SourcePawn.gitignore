@@ -1,4 +1,7 @@
 # SourcePawn
-*.dll # extensions
-*.so # extensions
-*.smx # plugins
+# extensions
+*.dll
+*.so
+
+# plugins
+*.smx
