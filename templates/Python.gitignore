@@ -109,6 +109,10 @@ ipython_config.py
 #   https://pdm.fming.dev/#use-with-ide
 .pdm.toml
 
+# rye
+#   rye stores project-wide configurations in pyproject.toml, but it is recommended to not include it in version control
+pyproject.toml
+
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 
