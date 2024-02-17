@@ -7,3 +7,7 @@ node_modules
 # Generated files
 .psci
 output
+
+# PureScript IDE extension for VSCode
+.psc-ide-port
+.purs-repl
