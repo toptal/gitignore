@@ -1,1 +1,5 @@
-.env
+.env*
+.env.*
+.*.env
+!.env.vault
+!.env.me
