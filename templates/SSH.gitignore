@@ -1,3 +1,4 @@
 **/.ssh/id_*
 **/.ssh/*_id_*
 **/.ssh/known_hosts
+**/.ssh/known_hosts.old
