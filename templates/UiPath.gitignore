@@ -1,0 +1,6 @@
+# gitignore template for UiPath RPA development
+**/*.log
+**/.local/**
+**/.objects/**
+**/.settings/**
+**/.tmh/**
