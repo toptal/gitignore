@@ -67,3 +67,7 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 /public/uploads
+
+# Ignore built assets like TailwindCSS
+/app/assets/builds/*
+!/app/assets/builds/.keep
