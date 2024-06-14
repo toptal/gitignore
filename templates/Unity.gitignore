@@ -67,6 +67,11 @@ crashlytics-build.properties
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
+# Temporary Addressables build artifact
+# see https://forum.unity.com/threads/link-xml-part-of-version-control.1227360/#post-8190567
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/[Ll]ink.xml
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/[Ll]ink.xml.meta
+
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
