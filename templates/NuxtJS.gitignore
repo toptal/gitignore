@@ -1,12 +1,21 @@
-# Generated dirs
-dist
-.nuxt
-.nuxt-*
+# Nuxt dev/build outputs
 .output
-.gen
+.nuxt
+.nitro
+.cache
+dist
 
 # Node dependencies
 node_modules
 
-# System files
+# Logs
+logs
 *.log
+
+# Misc
+.DS_Store
+
+# Local env files
+.env
+.env.*
+!.env.example
