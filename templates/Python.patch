@@ -6,3 +6,6 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+# Python mutation testing cache file
+.mutmut-cache
